@@ -7,10 +7,10 @@ import { HomeComponent } from './views/home/home.component';
 import { EventsComponent } from './views/events/events.component';
 import { PrayerComponent } from './views/prayer/prayer.component';
 
-
+//routes
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path:'login', component: LoginComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'events', component: EventsComponent },
   { path: 'prayer', component: PrayerComponent },
